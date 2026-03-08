@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRADEX Learning – Master Java</title>
+  <meta name="description" content="SRADEX Learning – Learn Java from basics to real-world with live classes, notes, and internships.">
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page welcome" id="welcomePage">
+    <div class="logo-container">
+        <img src="images/logo.jpeg" alt="SRADEX Logo" class="logo-img">
+        <div class="logo-text">SRADEX Learning</div>
+    </div>
+    <div class="intro-text">Welcome to SRADEX Learning website</div>
+  </div>
+
+  <div class="page" id="imagePage">
+    <img src="images/java.jpeg" alt="Java Programming Logo" class="welcome-image">
+  </div>
+
+  <div id="mainContent">
+    <header>
+      <div class="logo">
+        <img src="images/logo.jpeg" alt="SRADEX Logo" class="logo-img">
+        </div>
+      <div class="nav-area">
+        <nav id="nav-menu">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#live-code">Live Demo</a>
+          <a href="#slider">Why Java</a>
+          <a href="#pricing">Enroll</a>
+        </nav>
+        <div id="themeToggle" class="theme-toggle">☀️</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section id="hero" class="hero">
+      <h1 data-aos="fade-down">Master Java Programming</h1>
+      <p data-aos="fade-up" data-aos-delay="200">From fundamentals to real-world applications</p>
+      <div class="java-logo" data-aos="zoom-in" data-aos-delay="400"></div>
+      <a href="#pricing" class="cta" data-aos="fade-up" data-aos-delay="600">Enroll Now →</a>
+    </section>
+
+    <section id="about" class="section">
+        <div class="about-wrapper">
+            <h2 data-aos="fade-up">About SRADEX Learning</h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+                SRADEX Learning is an innovative online learning platform dedicated to making high-quality education accessible, engaging, and adaptable. Founded by Ganesh Reddy Middolla (Founder & CEO) and Devisree Pasham (Co-Founder & EO), SRADEX Learning bridges the gap between academia and industry, empowering learners with practical skills to succeed in the tech-driven world.
+            </p>
+            <div class="about-grid">
+                <div class="about-section-card" data-aos="fade-right" data-aos-delay="200">
+                    <h3>What We Offer</h3>
+                    <ul class="about-list">
+                        <li data-icon="✅">
+                           <div><strong>Live Courses:</strong> <span>Real-time interactive sessions with industry experts.</span></div>
+                        </li>
+                        <li data-icon="✅">
+                            <div><strong>On-Demand Courses:</strong> <span>Learn at your own pace, anytime, anywhere.</span></div>
+                        </li>
+                        <li data-icon="✅">
+                            <div><strong>Handwritten Notes:</strong> <span>Unique, personalized study materials.</span></div>
+                        </li>
+                        <li data-icon="✅">
+                            <div><strong>Career Guidance:</strong> <span>Comprehensive support for academic and professional growth.</span></div>
+                        </li>
+                        <li data-icon="✅">
+                           <div><strong>Internships:</strong> <span>Gain real-world experience and boost your career prospects.</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-section-card" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Our Mission & Objectives</h3>
+                    <ul class="about-list">
+                        <li data-icon="🚀">
+                            <div><strong>Our Mission:</strong> <span>To redefine online learning by providing industry-relevant courses, and career development.</span></div>
+                        </li>
+                        <li data-icon="🎯">
+                            <div><strong>High-Quality Education:</strong> <span>Industry-focused courses & interactive training.</span></div>
+                        </li>
+                        <li data-icon="🎯">
+                            <div><strong>Bridging Academia & Industry:</strong> <span>Hands-on experience through real-world projects.</span></div>
+                        </li>
+                        <li data-icon="🎯">
+                            <div><strong>Engaging Learning Experience:</strong> <span>Expert mentorship & interactive quizzes.</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="section">
+        <h2 data-aos="fade-up">Your Learning Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-content"><h3>Step 1: Core Concepts</h3><p>Build a strong foundation in Java syntax, variables, and control flow.</p></div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-content"><h3>Step 2: OOP Deep Dive</h3><p>Master Object-Oriented principles like classes, inheritance, and polymorphism.</p></div>
+            </div>
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-content"><h3>Step 3: Project Building</h3><p>Apply your knowledge to build real-world applications from scratch.</p></div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-content"><h3>Step 4: Career Prep</h3><p>Prepare for the job market with resume building and internship guidance.</p></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="live-code" class="section">
+        <h2 data-aos="fade-up">See Java in Action</h2>
+        <div class="code-editor" data-aos="zoom-in-up">
+            <div class="code-editor-header">
+                <div class="code-editor-dot red"></div>
+                <div class="code-editor-dot yellow"></div>
+                <div class="code-editor-dot green"></div>
+            </div>
+            <pre><code id="java-code-demo"></code></pre>
+        </div>
+    </section>
+    
+    <section id="slider" class="slider">
+      <div class="slides">
+        <div class="slide" style="background-image: url('java8.jpg');"><img src="images/java8.jpg" alt="Java 8"></div>
+        <div class="slide" style="background-image: url('java11.jpg');"><img src="images/java11.jpg" alt="Java 11"></div>
+        <div class="slide" style="background-image: url('java3.jpg');"><img src="images/java3.jpg" alt="Java Overview"></div>
+        <div class="slide" style="background-image: url('java4.jpg');"><img src="images/java4.jpg" alt="Java Concepts"></div>
+        <div class="slide" style="background-image: url('java7.jpg');"><img src="images/java7.jpg" alt="Java Features"></div>
+      </div>
+      <button class="slider-arrow prev" aria-label="Previous slide">&#10094;</button>
+      <button class="slider-arrow next" aria-label="Next slide">&#10095;</button>
+      <div class="slider-dots"></div>
+    </section>
+
+    <section class="section">
+        <div class="quotes" data-aos="zoom-in">
+            <p>"Where Knowledge Meets Opportunity"</p>
+            <footer>— SRADEX Learning</footer>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <h2 data-aos="fade-up">Become a Java Pro</h2>
+      <div class="pricing-card" data-aos="flip-left" data-aos-delay="200">
+        <h3>Complete Java Mastery Course</h3>
+        <div class="price">₹1500 <span style="font-size:1rem;color:var(--text-muted)">one-time payment</span></div>
+        <p>Everything you need to go from beginner to job-ready.</p>
+        <ul class="features-list">
+          <li>Core Java Fundamentals</li>
+          <li>Advanced Java & OOPS Concepts</li>
+          <li>Live Interactive Classes</li>
+          <li>Exclusive Handwritten Notes</li>
+          <li>Real-world Project Building</li>
+          <li>Career & Internship Guidance</li>
+        </ul>
+        <a href="#" class="cta">Enroll Today</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 SRADEX Learning | Madanapalle, IN | <a href="https://sradevlearningofficial.free.nf">Website</a> | +91 9110709498</p>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
